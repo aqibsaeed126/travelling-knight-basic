@@ -1,6 +1,6 @@
 # travelling-knight
 
-- This is simplest possible solution using Jquery , Plain Javascript , html and CSS.
+- This is simplest possible solution using Jquery, Plain Javascript , html and CSS.
 - I have tried to make it as a visual representations, rather than just logging coordinates
 - There can be also more optimized and best way to to do , i jys kept it simple
 - another angular framework specific solution will be given as well after that.
