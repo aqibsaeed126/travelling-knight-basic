@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Knight Move</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="knight.js"></script>
+    <link rel="stylesheet" type="text/css" href="knight.css"/>
+  </head>
+  
+  <body>
+    <h2>Instructions</h2>
+    <ul>
+      <li>Enter BoardSize in first input</li>
+      <li>Enter Coordinates with commas like 4,4 based on board size</li>
+      <li>Changes will reflected when focus out of input control</li>
+      <li>Red Color Shows Knight Place and Green Color shows possible Movements as per rules</li>
+    </ul>
+  <table border="0" cellspacing="1" cellpadding="1">
+      <tr class="sizetr">
+        <td><label>Chess Size</label></td>
+        <td><input type="text" id="size" name="size" placeholder="2" onchange="renderChess()"/></td>
+        <td><span id="size_error"></span></td>
+      </tr>
+      <tr class="coordtr">
+        <td><label>Knight Co-ordinates</label></td>
+        <td><input type="text" id="knight_coord" name="knight_coord" placeholder="1,1" onchange="setCoordinates()"/></td>
+        <td><span id="coord_error"></span></td>
+      </tr>
+  </table>
+  <BR />
+  <table id="chess" cellpadding="30" border="1"></table>
+  </body>
+</html>
+
