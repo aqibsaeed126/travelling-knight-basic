@@ -1,4 +1,4 @@
-# travelling-knight-Basic-Simpe-Implementation
+# travelling-knight-Basic-Simple-Implementation
 
 - This is simplest possible solution using Jquery, Plain Javascript , html and CSS.
 - I have tried to make it as a visual representations, rather than just logging coordinates
